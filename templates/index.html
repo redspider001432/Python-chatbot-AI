@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div     class="chat">
+        <div class="chat-header">
+          <h3>SPidER</h3>
+        </div>
+        <div id="chat-body">
+            <p class="sen" style="white-space: nowrap;" ></p>
+            <p class="rec" style="white-space: nowrap;" ></p>
+        </div>
+        <div id="input" class="chat-footer">
+            <input type="text" name="userMessage" placeholder="Type your message here..." id="userInput">
+            <input type="submit" value="send" id="buttonSubmit">
+          </div>
+      </div>
+      <script>
+        console.log('starting spider Chatbot')
+        function getUserInput(){
+            var userInput = $('#userInput').val();
+            var userHtml = "<div class='sen'><p style='color:blue;text-align:right;' class='msgSent'>Stranger: <span>"+userInput+"</span></p></div>";
+            $('#userInput').val('');
+            $("#chat-body").append(userHtml)       
+            document.getElementById('input').scrollIntoView({block:'start',behavior:"smooth"});
+            $.get("/get",{userMessage:userInput}).done(function(data){
+                var spiderHtml = "<div class='rec'><p style='color:red;' class='msgRecieved'>SPiDer: <span>"+data+"</span></p></div>";
+                $("#recieved").css('display','flex');
+                $('#chat-body').append(spiderHtml);
+            }); 
+        }
+        $("#buttonSubmit").click(function(){
+                console.log('click')
+                getUserInput();
+            });
+      </script>
+
+</body>
+
+</html>

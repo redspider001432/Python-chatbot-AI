@@ -1,0 +1,86 @@
+{
+  "pairs": [
+    {
+      "questions": "cryptography,what is cryptography",
+      "answers": [
+        "Cryptography aids to secure information from third parties who are called adversaries. It allows only the sender and the recipient to access the data securely."
+      ]
+    },
+    {
+      "questions": "traceroute,what is traceroute",
+      "answers": [
+        "Traceroute is a network diagnostic tool. It helps track the route taken by a packet that is sent across the IP network. It shows the IP addresses of all the routers it pinged between the source and the destination.\\nUses:\\nIt shows the time taken by the packet for each hop during the transmission.\\nWhen the packet is lost during the transmission, the traceroute will identify where the point of failure is."
+      ]
+    },
+    {
+        "questions":"firewall,what is a firewall",
+        "answers":[
+            "A firewall is a network security device/system, which blocks malicious traffic such as hackers, worms, malware, and viruses to maintain data privacy.\\nUses: \\nIt monitors the incoming and outgoing network traffic. It permits or allows only data packets that agree to the set of security rules.\\nIt acts as a barrier between the internal network and the incoming traffic from external sources like the Internet."
+        ]
+    },
+    {
+        "questions":"handshake,What is a three-way handshake",
+        "answers":[
+            "It is a process that happens in a TCP/IP network when you make a connection between a local host and the server. It is a three-step process to negotiate acknowledgment and synchronization of packets before communication starts. "
+        ]
+    },
+    {
+        "questions":"response code,What is a response code",
+        "answers":["HTTP response codes indicate a server's response when a client makes a request to the server. It shows whether an HTTP request is completed or not.\\nThe request is received, and the process is continuing. Some example codes are:\\n100 (continue)\\n101 (switching protocol)\\n102 (processing)\\n103 (early hints)"]
+    },
+    {
+        "questions":"CIA triad,What is the CIA triad",
+        "answers":[
+            "CIA Triad is a security model to ensure IT security. CIA stands for confidentiality, integrity, and availability."
+        ]
+    },
+    {
+        "questions":"Cyber crime,cyber attacks,What are the common cyberattacks",
+        "answers":["Man in the Middle attack\\nPhishing\\nRogue Software\\nMalware\\nDrive-by Downloads\\nDDOS\\nPasswords Attacks"]
+    },
+    {
+        "questions":"What is data leakage",
+        "answers":["Data leakage means the unauthorized transmission of data from an organization to an external recipient. The mode of transmission can be electronic, physical, web, email, mobile data, and storage devices, such as USB keys, laptops, and optical media. "]
+    },
+    {
+        "questions":"port scanning",
+        "answers":["A port scan helps you determine the ports that are open, listening, or closed on a network. Administrators use this to test network security and the system’s firewall strength. For hackers, it is a popular reconnaissance tool to identify the weak point to break into a system."]
+    },
+    {
+        "questions":"brute forceattack,Explain brute force attack",
+        "answers":["A brute force attack is a hack where the attacker tries to guess the target password by trial and error. It is mostly implemented with the help of automated software used to login with credentials."]
+    },
+    {
+        "questions":"Malware Attack",
+        "answers":["This is one of the most common types of cyberattacks. “Malware” refers to malicious software viruses including worms, spyware, ransomware, adware, and trojans. \\nThe trojan virus disguises itself as legitimate software. Ransomware blocks access to the network's key components, whereas Spyware is software that steals all your confidential data without your knowledge. Adware is software that displays advertising content such as banners on a user's screen. \\nMalware breaches a network through a vulnerability. When the user clicks a dangerous link, it downloads an email attachment or when an infected pen drive is used. \\nLet’s now look at how we can prevent a malware attack:\\nUse antivirus software. It can protect your computer against malware. Avast Antivirus, Norton Antivirus, and McAfee Antivirus are a few of the popular antivirus software.\\nUse firewalls. Firewalls filter the traffic that may enter your device. Windows and Mac OS X have their default built-in firewalls, named Windows Firewall and Mac Firewall.\\nStay alert and avoid clicking on suspicious links.\\nUpdate your OS and browsers, regularly."]
+    },
+    {
+        "questions":"phishing attack",
+        "answers":["Phishing attacks are one of the most prominent widespread types of cyberattacks. It is a type of social engineering attack wherein an attacker impersonates to be a trusted contact and sends the victim fake mails. \\nUnaware of this, the victim opens the mail and clicks on the malicious link or opens the mail's attachment. By doing so, attackers gain access to confidential information and account credentials. They can also install malware through a phishing attack. \\nPhishing attacks can be prevented by following the below-mentioned steps:\\nScrutinize the emails you receive. Most phishing emails have significant errors like spelling mistakes and format changes from that of legitimate sources.\\nMake use of an anti-phishing toolbar.\\nUpdate your passwords regularly."]
+    },
+    {
+        "questions":"Password Attack",
+        "answers":["It is a form of attack wherein a hacker cracks your password with various programs and password cracking tools like Aircrack, Cain, Abel, John the Ripper, Hashcat, etc. There are different types of password attacks like brute force attacks, dictionary attacks, and keylogger attacks."]
+    },
+    {
+        "questions":"mitm,man in the Middle Attack",
+        "answers":["A Man-in-the-Middle Attack (MITM) is also known as an eavesdropping attack. In this attack, an attacker comes in between a two-party communication, i.e., the attacker hijacks the session between a client and host. By doing so, hackers steal and manipulate data. "]
+    },
+    {
+        "questions":"sql injection,SQL Injection Attack",
+        "answers":["A Structured Query Language (SQL) injection attack occurs on a database-driven website when the hacker manipulates a standard SQL query. It is carried by injecting a malicious code into a vulnerable website search box, thereby making the server reveal crucial information. "]
+    },
+    {
+        "questions":"ddos,dos,dos attack,Denial of Service Attack",
+        "answers":["A Denial-of-Service Attack is a significant threat to companies. Here, attackers target systems, servers, or networks and flood them with traffic to exhaust their resources and bandwidth. When this happens, catering to the incoming requests becomes overwhelming for the servers, resulting in the website it hosts either shut down or slow down. This leaves the legitimate service requests unattended.It is also known as a DDoS (Distributed Denial-of-Service) attack when attackers use multiple compromised systems to launch this attack. "]
+    },
+    {
+        "questions":"preventations,how to prevent cyber attacks",
+        "answers":["Although we had a look at several ways to prevent the different types of cyberattacks we discussed, let's summarize and look at a few personal tips which you can adopt to avoid a cyberattack on the whole.\\n1. Change your passwords regularly and use strong alphanumeric passwords which are difficult to crack. Refrain from using too complicated passwords that you would tend to forget. Do not use the same password twice.\\n2. Update both your operating system and applications regularly. This is a primary prevention method for any cyber attack. This will remove vulnerabilities that hackers tend to exploit. Use trusted and legitimate Anti-virus protection software.\\n3. Use a firewall and other network security tools such as Intrusion prevention systems, Access control, Application security, etc.\\n4. Avoid opening emails from unknown senders. Scrutinize the emails you receive for loopholes and significant errors.\\n5. Make use of a VPN. This makes sure that it encrypts the traffic between the VPN server and your device.\\n6. Regularly back up your data. According to many security professionals, it is ideal to have three copies of your data on two different media types and another copy in an off-site location (cloud storage). Hence, even in the course of a cyber attack, you can erase your system's data and restore it with a recently performed backup."]
+    },
+    {
+        "questions":"fine,i am fine,I am fine",
+        "answers":["Yeah Ok","Yupp"]
+    }
+  ]
+}
